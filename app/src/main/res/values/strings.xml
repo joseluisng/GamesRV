@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GamesRV</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_game">Edit</string>
+    <string name="description_game">Description</string>
+    <string name="fecha_creada_game">Fecha creada</string>
+    <string name="add_titulo_game">Titulo</string>
+    <string name="add_Descriptioo_game">Descripción</string>
+    <string name="add_url_image">URL Imagen</string>
+    <string name="guardar_game">Guardar</string>
+</resources>

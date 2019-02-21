@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGame">
+
+    <EditText
+        android:id="@+id/etTituloGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_titulo_game"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etDescriptionGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_Descriptioo_game"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/etTituloGame"/>
+
+    <EditText
+        android:id="@+id/urlImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_url_image"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/etDescriptionGame"/>
+
+    <Button
+        android:id="@+id/btnAgregarGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_game"
+        android:background="@color/Blue_edit"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/urlImage"/>
+
+</RelativeLayout>
